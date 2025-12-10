@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mentorxes",
+  "info": {
+    "singularName": "mentorx",
+    "pluralName": "mentorxes",
+    "displayName": "mentorx"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "teacher": {
+      "type": "string"
+    }
+  }
+}
