@@ -17,10 +17,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # 🚀 SSH INTO THIS RUNNER
-      - name: Start SSH session into GitHub Actions runner
-        uses: mxschmitt/action-tmate@v3
-
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v3
         with:
